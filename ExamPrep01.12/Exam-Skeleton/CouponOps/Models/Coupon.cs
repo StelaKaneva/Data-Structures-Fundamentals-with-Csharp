@@ -12,5 +12,7 @@
         public string Code { get; set; }
         public int DiscountPercentage { get; set; }
         public int Validity { get; set; }
+
+        public Website Website { get; set; }
     }
 }
